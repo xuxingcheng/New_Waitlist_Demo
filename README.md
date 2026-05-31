@@ -14,6 +14,24 @@ npm run dev
 
 Then open `http://localhost:3000`.
 
+## Deploy With GitHub Pages
+
+This project is configured for static export and GitHub Pages deployment.
+
+1. Push `main` to GitHub.
+2. In the GitHub repository, open **Settings > Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Open **Actions** and run or wait for **Deploy to GitHub Pages**.
+
+The site will deploy to:
+
+```txt
+https://xuxingcheng.github.io/New_Waitlist_Demo/
+```
+
+The GitHub Actions workflow sets the required `/New_Waitlist_Demo` base path for
+GitHub Pages. Local development still runs at `http://localhost:3000`.
+
 ## Pages
 
 - `/customer` - mobile-first customer flow for taking a number, confirming,
